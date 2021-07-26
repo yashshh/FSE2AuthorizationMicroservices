@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: com.auth.test.service.JwUtilTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.428 s <<< FAILURE! - in com.auth.test.service.JwUtilTest
+generateTokenTest  Time elapsed: 0.008 s  <<< ERROR!
+java.lang.NoClassDefFoundError: org/junit/Assert
+	at com.auth.test.service.JwUtilTest.generateTokenTest(JwUtilTest.java:37)
+Caused by: java.lang.ClassNotFoundException: org.junit.Assert
+	at com.auth.test.service.JwUtilTest.generateTokenTest(JwUtilTest.java:37)
+
+getUserNameFails1  Time elapsed: 0.01 s  <<< ERROR!
+java.lang.NoClassDefFoundError: org/junit/Assert
+	at com.auth.test.service.JwUtilTest.getUserNameFails1(JwUtilTest.java:81)
+
+getUserNameFails2  Time elapsed: 0.006 s  <<< ERROR!
+java.lang.NoClassDefFoundError: org/junit/Assert
+	at com.auth.test.service.JwUtilTest.getUserNameFails2(JwUtilTest.java:86)
+

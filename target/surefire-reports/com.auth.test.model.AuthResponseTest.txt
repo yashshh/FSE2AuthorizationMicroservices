@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.auth.test.model.AuthResponseTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.032 s <<< FAILURE! - in com.auth.test.model.AuthResponseTest
+testToString  Time elapsed: 0.02 s  <<< ERROR!
+java.lang.NoClassDefFoundError: org/junit/Assert
+	at com.auth.test.model.AuthResponseTest.testToString(AuthResponseTest.java:42)
+Caused by: java.lang.ClassNotFoundException: org.junit.Assert
+	at com.auth.test.model.AuthResponseTest.testToString(AuthResponseTest.java:42)
+
